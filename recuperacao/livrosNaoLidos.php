@@ -21,16 +21,11 @@ require_once __DIR__."/vendor/autoload.php";
             echo "<tr>";
             echo "<td>{$livro->getTitulo()}</td>";
             echo "<td>{$livro->getAutor()}</td>";
-            echo '<td><a href="livrosNaoLidos.php?id='.$livro->getIdLivro().'">Já li este livro</a></td>';
+            echo '<td><a href="mudaStatus.php?id='.$livro->getIdLivro().'">Já li este livro</a></td>';
             echo "</tr>";
         }
         ?>
     </table>
-    <?php
-    // var_dump($_GET);
-    $id = $_GET['id'];
-    $livro = Livro::mudarStatus($id);
-    ?>
     <a href="index.php">Voltar para a tela inicial</a>
 </body>
 </html>
