@@ -15,7 +15,7 @@ Utilizando o arquivo [clube_livro.sql](https://github.com/OtavioMaldaner/recuper
 - Abrir a pasta raiz do projeto e executar o seguinte comando:
 > composer install
 - Iniciar o servidor Apache e  MySQL no console do Xampp;
-- Acessar o projeto no navegador (`localhost/Trabalho-festas`);
+- Acessar o projeto no navegador (`localhost/recuperacao`);
 # Sobre os autores
 Projeto iniciado no dia 05/010/2022 e finalizado no dia 05/10/2022; &nbsp;
 
