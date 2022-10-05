@@ -103,4 +103,9 @@ class Livro implements ActiveRecord{
         }
         return $livros;
     }
+    public static function mudarStatus(int $id):void{
+        $conexao = new MySQL();
+        $sql = "UPDATE livros SET status = 1 WHERE id = {$id};";
+        $conexao->executa($sql);
+    }
 }

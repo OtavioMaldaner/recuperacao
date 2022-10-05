@@ -1,7 +1,7 @@
 # Recuperação - segundo trimestre
 ## Questão:
 ### Clube do Livro
-Utilizando o arquivo clube_livro.sql você deve elaborar uma página que permita as usuárias cadastrar/editar/excluir livros. Uma página deve exibir todos os livros não lidos cadastrados e possibilitar que se indique que um livro foi lido. Uma outra página deve exibir todos os livros que não foram lidos.
+Utilizando o arquivo [clube_livro.sql](https://github.com/OtavioMaldaner/recuperacao/blob/main/recuperacao/clube_livro%20(1).sql) você deve elaborar uma página que permita as usuárias cadastrar/editar/excluir livros. Uma página deve exibir todos os livros não lidos cadastrados e possibilitar que se indique que um livro foi lido. Uma outra página deve exibir todos os livros que não foram lidos.
 #### Pontuação: 
 - Incluir, editar, excluir e alterar o status (5 pontos)
 - Listar livros não lidos (2.5 pontos)
